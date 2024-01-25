@@ -6,11 +6,11 @@ import java.util.List;
 
 public interface UserDao {
 
-    void createUsersTable();
+    boolean createUsersTable();
 
     void dropUsersTable();
 
-    void saveUser(String name, String lastName, byte age);
+    void saveUser(String name, String lastName, int age);
 
     void removeUserById(long id);
 

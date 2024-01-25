@@ -11,8 +11,9 @@ public class UserDaoHibernateImpl implements UserDao {
     }
 
     @Override
-    public void createUsersTable() {
+    public boolean createUsersTable() {
 
+        return false;
     }
 
     @Override
@@ -21,7 +22,7 @@ public class UserDaoHibernateImpl implements UserDao {
     }
 
     @Override
-    public void saveUser(String name, String lastName, byte age) {
+    public void saveUser(String name, String lastName, int age) {
 
     }
 
