@@ -14,8 +14,6 @@ public class Main {
             userDaoJdbc.saveUser("Zarip", "kursan", 22);
             userDaoJdbc.saveUser("Zarip", "kurssan", 22);
 
-
-
         System.out.println(userDaoJdbc.getAllUsers());
         userDaoJdbc.removeUserById(11);
         userDaoJdbc.cleanUsersTable();
